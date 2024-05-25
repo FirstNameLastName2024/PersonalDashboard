@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="timer-container">
+        <div class="base-circle">
+            <div class="color-layer"></div>
+            <div class="top-circle">
+                <div class="reset" function = "reset"></div>
+                <div class="timer" ><input id="hr" type="number"  autocomplete="off" placeholder="00"></input>:<input id="min"  type="number" placeholder="00"  ></input>:<input id="sec" type="number" placeholder="00" ></input></div>
+                <div class="reminder">
+                    <i class="far fa-bell"></i>
+                    <div class="fin-time">00:00</div>
+                </div> 
+                <div class="play_pause">
+                    <i class="op1 fas  fa-play" function = "play"></i>
+                    <i class="op2 fas  fa-pause" function = "pause"></i>
+                </div>    
+            </div>
+        </div>
+    </div> 
+    <script src="index.js"></script>
+</body>
+
+</html>
